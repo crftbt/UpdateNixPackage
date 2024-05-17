@@ -7,6 +7,8 @@
 6. Fill in the sha256 with the provided strings from the ```nix-build``` in the default.nix file.
 7. Run ```nix-build -a PACKAGE_NAME``` to see if the build completes with the new sha256.
 8. If build completes successfully submit a Pull Request. Commit Title ```package: old_version -> new_version``` example: ```greetd: 0.9.0 -> 0.10.0```
+9. Find package in ```https://search.nixos.org/packages``` and click source
+10. Click Edit then set Branch in the top left to master.
 
 ### nurl for sha256
 * Nurl can be used to fetch a sha256. Example: ```nurl https://git.sr.ht/~kennylevinsen/greetd 0.10.0```
